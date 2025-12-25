@@ -90,3 +90,9 @@ These KPIs provide a high-level view of Adidas overall sales performance.
 
 ## 8. Project Files
 - Excel dashboard file containing full interactive analysis
+---
+
+## 9. Dashboard Preview
+
+![Dashboard Preview](AdidasDashboard.jpeg)
+
