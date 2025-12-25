@@ -1,78 +1,92 @@
 # Adidas-Sales-Analysis
 Sales data analysis and Excel dashboard for Adidas products
-# 📊 Adidas Sales Analysis Project
+# Adidas Sales Analysis – Excel Project
 
-## 1. Project Overview
-This project focuses on analyzing Adidas sales data using Microsoft Excel.
-The goal is to understand sales performance across products, regions, and retailers, and to present clear insights through an interactive dashboard.
+## 1. Project Objective
+This project analyzes Adidas sales data to evaluate overall business performance.
+The main objective is to understand sales distribution, profitability drivers, and performance differences across regions, retailers, products, and sales methods using Excel-based analysis.
 
-The project is designed as a business-oriented analysis, similar to what would be delivered within a data analytics team.
+The project is structured as a team-style analytical report, not just a dashboard showcase.
 
 ---
 
 ## 2. Dataset Description
-The dataset represents Adidas sales transactions and includes the following key attributes:
+The dataset represents structured Adidas sales transactions.
+Each row corresponds to a sales record containing commercial, geographic, and financial attributes.
 
-- Product information (category, type)
-- Retailer name
-- Sales region and state
-- Sales method (online / in-store / outlet)
+### Key Data Fields
+- Retailer
+- Region and city
+- Sales method (In-store, Online, Outlet)
+- Product category
 - Units sold
 - Total sales value
-- Operating profit and margin
-- Time dimension (date)
-
-The data is structured, tabular, and suitable for aggregation and KPI analysis.
+- Operating profit
+- Operating margin
 
 ---
 
 ## 3. Data Characteristics
-- Type: Structured sales data
-- Size: Medium-sized dataset suitable for Excel analysis
-- Granularity: Transaction-level data
-- Time-based: Allows trend and performance analysis over time
+- Data type: Structured tabular sales data
+- Granularity: Transaction-level
+- Time relevance: Aggregated for performance analysis
+- Suitable for KPI calculation, comparisons, and trend analysis
 
-Before analysis, the data was reviewed to ensure consistency and readiness for reporting.
-
----
-
-## 4. Analysis Objectives
-The analysis aims to answer key business questions such as:
-- Which retailers generate the highest sales?
-- Which regions perform better in terms of revenue and profit?
-- How do different sales methods compare?
-- What are the overall KPIs for Adidas sales performance?
+The dataset is appropriate for Excel pivot tables, charts, and KPI-driven dashboards.
 
 ---
 
-## 5. Key Insights
-Based on the analysis and dashboard results:
-
-- Sales performance varies significantly across regions.
-- A small number of retailers contribute to a large portion of total sales.
-- Certain sales methods outperform others in profitability.
-- KPIs help quickly identify high-performing and underperforming segments.
-
-These insights can support management decisions related to distribution, marketing focus, and sales strategy.
+## 4. Analysis Scope
+The analysis focuses on answering the following business questions:
+- How are total sales distributed across regions?
+- Which retailers drive the highest sales and profit?
+- How do different sales methods contribute to revenue?
+- Which cities and product categories show stronger performance?
 
 ---
 
-## 6. Dashboard Overview
-The Excel dashboard provides:
-- High-level KPIs for total sales and profit
-- Retailer and regional performance comparison
-- Visual charts for quick interpretation
-- Interactive filtering using pivot tables and slicers
+## 5. Key KPIs Summary
+- Total Sales: 120.2M
+- Operating Profit: 2.5M
+- Units Sold: 332.1K
+- Operating Margin: 42.3%
 
-![Dashboard Preview](adidas-dashboard-preview.png)
+These KPIs provide a high-level view of Adidas overall sales performance.
 
 ---
 
-## 7. Files Included
-- `Adidas_Sales_Dashboard.xlsx`  
-  Interactive Excel dashboard with full analysis
+## 6. Key Insights
 
-- `adidas-dashboard-preview.png`  
-  Snapshot of the final dashboard
+### Regional Performance
+- The West region generates the highest sales (36.4M), indicating strong market demand.
+- The Midwest shows the lowest performance (16.7M), suggesting potential growth opportunities or weaker market penetration.
 
-> Note: GitHub cannot preview complex Excel dashboards. Please download the file to explore full interactivity.
+### Sales Method Analysis
+- Online sales contribute the largest share (37%), followed by Outlet (33%) and In-store (30%).
+- This highlights the growing importance of digital sales channels.
+
+### Retailer Performance
+- West Gear is the top retailer by sales (32.4M) and profit (85.7M), making it a critical business partner.
+- Foot Locker and Sports Direct also show strong performance, while Amazon records lower sales contribution compared to others.
+
+### City-Level Insights
+- New York is the top-performing city (5.7M), followed by San Francisco and Charleston.
+- Sales concentration in major cities suggests urban markets drive significant revenue.
+
+### Product Performance
+- Men’s Street Footwear is the highest-performing product category.
+- Women’s product categories show lower sales volumes, indicating potential areas for market expansion.
+
+---
+
+## 7. Tools Used
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- KPI Metrics
+- Dashboard Design
+
+---
+
+## 8. Project Files
+- Excel dashboard file containing full interactive analysis
